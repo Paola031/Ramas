@@ -51,6 +51,16 @@ public class SALUDO extends JFrame {
 		});
 		btnNewButton.setBounds(161, 110, 89, 23);
 		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("SALUDO RAMA");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showInternalMessageDialog(null,"Hola estas en tu rama");
+				
+			}
+		});
+		btnNewButton_1.setBounds(161, 157, 105, 23);
+		contentPane.add(btnNewButton_1);
 
 	}
 }
