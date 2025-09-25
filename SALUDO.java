@@ -61,6 +61,10 @@ public class SALUDO extends JFrame {
 		});
 		btnNewButton_1.setBounds(161, 157, 105, 23);
 		contentPane.add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("New button");
+		btnNewButton_2.setBounds(171, 191, 89, 23);
+		contentPane.add(btnNewButton_2);
 
 	}
 }
